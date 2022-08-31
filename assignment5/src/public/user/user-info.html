@@ -1,0 +1,16 @@
+<div class="container">
+
+  <user-pref 
+    ng-if="UserInfoCtrl.userPref"
+    firstname="UserInfoCtrl.userPref.first_name"
+    lastname="UserInfoCtrl.userPref.last_name"
+    phone="UserInfoCtrl.userPref.phone"
+    fav-item-title="UserInfoCtrl.userPref.menuItem.name"
+    fav-item-name="UserInfoCtrl.userPref.menuItem.short_name"
+    fav-item-desc="UserInfoCtrl.userPref.menuItem.description"
+    fav-item-img-url="UserInfoCtrl.imgUrl">
+  </user-pref>
+
+<div ng-if="!UserInfoCtrl.userPref"> Not Signed Up Yet. Sign up Now! </div>
+</div>
+  

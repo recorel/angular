@@ -1,0 +1,20 @@
+<h1> Registered Information: </h1>
+<h4> First Name: {{ $ctrl.firstname}} </h4>
+<h4> Last Name: {{ $ctrl.lastname }} </h4>
+<h4> Phone No: {{ $ctrl.phone }} </h4>
+
+<div class="menu-item-tile col-md-6">
+<div class="row">
+  <div class="col-sm-5">
+    <div class="menu-item-photo">
+      <div>{{ $ctrl.favItemName }}</div>
+      <img class="img-responsive" width="250" height="150" ng-src="{{ $ctrl.favItemImgUrl }}">
+    </div>
+  </div>
+  <div class="menu-item-description col-sm-7">
+    <h3 class="menu-item-title">{{ $ctrl.favItemTitle }}</h3>
+    <p class="menu-item-details">{{ $ctrl.favItemDesc }}</p>
+  </div>
+</div>
+<hr class="visible-xs">
+</div>
