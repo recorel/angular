@@ -14,7 +14,7 @@
         ng-maxlength="40">
         <span
           ng-if="(signupForm.first_name.$error.minlength || signupForm.first_name.$error.required) && signupForm.first_name.$touched">
-          Username must be at least 2 characters long
+          First name  must be at least 2 characters long
         </span>
         <span ng-if="signupForm.first_name.$error.maxlength && signupForm.first_name.$touched">
           First name must not be longer than 10 characters
@@ -28,7 +28,7 @@
         ng-maxlength="40">
         <span
           ng-if="(signupForm.last_name.$error.minlength || signupForm.last_name.$error.required) && signupForm.last_name.$touched">
-          Username must be at least 2 characters long
+          Last name must be at least 2 characters long
         </span>
         <span ng-if="signupForm.last_name.$error.maxlength && signupForm.last_name.$touched">
           Last name must not be longer than 10 characters
