@@ -8,6 +8,7 @@ angular.module('public')
     firstname: '<',
     lastname: '<',
     phone: '<',
+    email: '<',
     favItemTitle: '<',
     favItemName: '<',
     favItemDesc: '<',
